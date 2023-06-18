@@ -83,14 +83,14 @@ async def start_msg(client, pic, version, total):
 <b><i>Sudo:</b></i> <code>{is_sudo}</code>
 <b><i>Library:</b></i> <code>Telethon - {__telever__}</code>
 
-<b><i>»» <u><a href='https://t.me/Its_HellBot'>†hê Hêllẞø†</a></u> ««</i></b>
+<b><i>»» <u><a href='https://t.me/Its_HellBot'>†hê кяιѕниα ẞø†</a></u> ««</i></b>
 """
     await client.send_file(
         Config.LOGGER_ID,
         pic,
         caption=text,
         parse_mode="HTML",
-        buttons=[[Button.url("HellBot Network", "https://t.me/HellBot_Networks")]],
+        buttons=[[Button.url("кяιѕниα Network", "https://t.me/HellBot_Networks")]],
     )
 
 
